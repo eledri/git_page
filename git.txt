@@ -1,0 +1,19 @@
+git --version - גרסא
+git config --global user.name "eledri" -user
+git config --global user.email "eledri1306@gmail.com" - email
+git config user.email / name - check email / user
+clear - clear cli
+cd //path// - to web folder
+git init - create repository
+git add . - stage all folder
+git commit -m "First version commit" - commit version with name
+git log - show history of changes
+git log -2 - show last 2 logs
+git log --pretty=format:"%an, %h, %s" - show name, commit log, chnage name
+
+---
+git checkout [project code] - return to other version
+git checkout master - return last version
+--
+git remote add local https://github.com/eledri/Animal_store.git - connet to github cloud (local=name)
+git push -u local master - push to cloud (local=name)

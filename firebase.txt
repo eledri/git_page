@@ -1,0 +1,4 @@
+npm i -g firebase-tools - install firebase
+firebase login - login
+firebase init - stage project >>hosting
+firebase deploy- project deploy >>hosting
